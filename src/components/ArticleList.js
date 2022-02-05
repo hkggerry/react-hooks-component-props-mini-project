@@ -5,7 +5,7 @@ function ArticleList({posts}){
    return (
       <main>
       {posts.map(function(x){
-         return <Article posts ={x} title ={x.title} date ={x.date} preview ={x.preview}/>
+         return <Article key={posts.id} posts ={x} title ={x.title} date ={x.date} preview ={x.preview}/>
       })}
       </main>
    )}
