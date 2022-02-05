@@ -2,7 +2,7 @@ import React from "react";
 import blogData from "../data/blog";
 import Header from "./Header"
 import About from "./About"
-// import Articlelist from "./ArticleList"
+import Articlelist from "./ArticleList"
 
 
 console.log(blogData);
